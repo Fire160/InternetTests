@@ -69,7 +69,7 @@ public class KeyEventDemo extends JFrame implements KeyListener, ActionListener
     
     private void addComponentsToPane() {
         
-        JButton button = new JButton("Clear");
+        JButton button = new JButton("Kill Yourself");
         button.addActionListener(this);
         
         typingArea = new JTextField(20);
