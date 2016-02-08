@@ -18,10 +18,9 @@ public class Graphical extends Canvas implements KeyListener, ActionListener
 		Graphical canvas = new Graphical();
 		TestingTests canva = new TestingTests();
 		JFrame frame = new JFrame("Fun");
-        //Create and set up the window.
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-	frame.setSize(340,340);
+        frame.setSize(340,340);
 //		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //		frame.getContentPane().add(canva);
 //		frame.getContentPane().add(canvas);

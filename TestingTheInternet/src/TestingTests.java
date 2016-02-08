@@ -6,6 +6,9 @@ import javax.swing.JFrame;
 
 public class TestingTests extends Canvas
 	{
+	private static final long serialVersionUID = 1L;
+	public static int x = 0;
+	public static int y = 0;
 	public static void main(String[] args)
 		{
 		JFrame frame = new JFrame("Art");
@@ -20,8 +23,6 @@ public class TestingTests extends Canvas
 	public void paint(Graphics graphics)
 		{
 		graphics.setColor(new Color(38,18,24));
-		graphics.fillRect(0, 5, 50, 50);
-		graphics.setColor(new Color(38,168,24));
-		graphics.drawRect(0, 50, 49, 49);
+		graphics.fillRect(x, y, 100, 100);
 		}
 	}
