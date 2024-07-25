@@ -15,6 +15,7 @@ import javax.swing.JTextField;
 
 public class Tester extends JFrame implements KeyListener, ActionListener
 	{
+	//test text
 	JTextArea displayArea;
     JTextField typingArea;
     private static final Dimension WindowSize = new Dimension(700, 600);
